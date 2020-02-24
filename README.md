@@ -6,7 +6,7 @@ This is a step-by-step guide for installing Raspbian Lite onto a headless Raspbe
 
   - connect to your WiFi network on boot
   - be visible in Finder as an SMB share
-  - allow SSH login at username@raspberry-pi-name.local (default to pi@pi1.local)
+  - allow SSH login at username@raspberry-pi-name.local (I will use pi@pi1.local)
 
 ### 1. Download Raspbian Lite
 
@@ -15,3 +15,7 @@ https://www.raspberrypi.org/downloads/raspbian/
 ### 2. Download balenaEtcher
 
 https://www.balena.io/etcher/
+
+### 3. Flash your SD card with the downloaded Raspbian image using balenaEtcher
+
+### 4. 
