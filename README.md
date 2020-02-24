@@ -2,9 +2,7 @@
 
 ## Raspbian Lite Install Guide
 
-This is a step-by-step guide for installing Raspbian Lite onto a headless Raspberry Pi from a Mac.
-
-If everything works, your Raspberry Pi will:
+This is a step-by-step guide for installing Raspbian Lite onto a headless Raspberry Pi from a Mac. If everything works, your Raspberry Pi will:
 
   - connect to your WiFi network on boot
   - be visible in Finder as an SMB share
