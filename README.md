@@ -20,4 +20,28 @@ You don't need to use balenaEtcher, but it's so much simpler than typing out com
 
 ### 3. Flash your SD card with the downloaded Raspbian image using balenaEtcher
 
-### 4. 
+### 4. Remove/Reinsert or Mount your newly flashed SD card
+
+```shell
+$ cd /Volumes/boot/
+$ sudo touch ssh
+$ sudo nano wpa_supplicant.conf
+```
+
+Paste in the following:
+
+```
+country=CA
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+network={
+    ssid="your-wifi-network-name"
+    psk="your-wifi-password"
+}
+```
+control-o, control-x to save changes and exit nano.
+
+```shell
+$ sudo nano config.txt
+```
