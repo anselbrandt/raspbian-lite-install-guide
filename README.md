@@ -1,8 +1,6 @@
-## Raspbian Lite Install Guide
-
 <a href="https://www.raspberrypi.org/downloads/raspbian/"><img src="https://www.raspberrypi.org/app/themes/mind-control/images/application/header/home-link.svg" align="left" width="50px"></a>
 
-<br>
+## Raspbian Lite Install Guide
 
 This is a step-by-step guide for installing Raspbian Lite onto a headless Raspberry Pi from a Mac.
 
