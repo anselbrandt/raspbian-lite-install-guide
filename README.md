@@ -8,10 +8,10 @@ If everything works, your Raspberry Pi will:
   - be visible in Finder as an SMB share
   - allow SSH login at username@raspberry-pi-name.local (default to pi@pi1.local)
 
-Download Raspbian Lite
+### 1. Download Raspbian Lite
 
 https://www.raspberrypi.org/downloads/raspbian/
 
-Download balenaEtcher
+### 2. Download balenaEtcher
 
 https://www.balena.io/etcher/
