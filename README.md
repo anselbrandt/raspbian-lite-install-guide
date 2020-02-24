@@ -12,9 +12,11 @@ This is a step-by-step guide for installing Raspbian Lite onto a headless Raspbe
 
 https://www.raspberrypi.org/downloads/raspbian/
 
-### 2. Download balenaEtcher
+### 2. Download and install balenaEtcher
 
 https://www.balena.io/etcher/
+
+You don't need to use balenaEtcher, but it's so much simpler than typing out commands.
 
 ### 3. Flash your SD card with the downloaded Raspbian image using balenaEtcher
 
