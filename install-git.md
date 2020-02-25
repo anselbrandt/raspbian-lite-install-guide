@@ -28,6 +28,12 @@ $ touch ~/.gitignore
 $ nano ~/.gitignore
 ```
 
+`control-o`, `control-x` to save and exit.
+
+```
+$ git config --global core.excludesfile ~/.gitignore
+```
+
 Sample `.gitignore` contents:
 
 ```
