@@ -18,7 +18,7 @@ $ sudo apt-get install git
 $ git config --global user.name "Your Name"
 $ git config --global user.email your@email.com
 $ git config --global core.editor nano
-$ git config credential.helper 'store'
+$ git config --global credential.helper 'store'
 ```
 
 To save your password, `git clone` any random repo.
