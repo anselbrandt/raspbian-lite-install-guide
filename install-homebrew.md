@@ -30,13 +30,5 @@ If Homebrew gives you any errors about `locale`, you may need to configure Local
 
 Now you can install packages like [`brew install ccat`](https://github.com/jingweno/ccat)
 
-\*`ccat` requires `golang`, and Hombrew seems to have trouble installing Go, so you may need to
-
-```
-$ sudo apt-get install golang
-```
-Then:
-```
-$ brew install --ignore-dependencies ccat
-```
+\*`ccat` requires `golang`, and Hombrew seems to have trouble installing Go, so you may need to `$ sudo apt-get install golang`, then: `$ brew install --ignore-dependencies ccat`
 
