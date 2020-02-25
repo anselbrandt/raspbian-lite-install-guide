@@ -20,9 +20,9 @@ You don't need to use balenaEtcher, but it's so much simpler than typing out com
 
 ### 3. Flash your SD card with the downloaded Raspbian image using balenaEtcher
 
-### 4. Remove/Reinsert or Mount your newly flashed SD card
+### 4. Remove/Reinsert or Mount your newly flashed SD card (still on your Mac)
 
-```shell
+```
 $ cd /Volumes/boot/
 $ sudo touch ssh
 $ sudo nano wpa_supplicant.conf
@@ -42,6 +42,13 @@ network={
 ```
 control-o, control-x to save changes and exit nano.
 
-```shell
-$ sudo nano config.txt
+Unmount and remove your SD card, insert into your Raspberry Pi and power it on.
+
+### 5. Connect to your Raspberry Pi
+
 ```
+$ ssh pi@raspberrypi.local
+```
+
+The default password will be `raspberry`
+
