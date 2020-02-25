@@ -56,3 +56,51 @@ $ ssh pi@raspberrypi.local
 
 The default password will be `raspberry`
 
+If you have trouble connecting to your Raspberry Pi, or have previously connected to it via SSH, you may need to clear out your `known_hosts` file in `~/.ssh`
+
+### 6. Change the name of your Pi
+
+```
+$ sudo nano /etc/hosts
+```
+
+On the last line, change the name `raspberrypi` to whatever you like. If you have more than one Pi on your network, you will want to give them different names.
+
+control-o, control-x to save and exit.
+
+```
+$ sudo nano /etc/hostname
+```
+
+Change the name `raspberrypi` to the same name you used above.
+
+control-o, control-x to save and exit.
+
+If you wish to change the default password, enter:
+
+```
+$ sudo raspi-config
+```
+
+### 7. Enable file sharing
+
+```
+$ sudo apt-get update
+$ sudo apt-get install netatalk
+```
+
+This will make your Raspberry Pi visible on in Finder under Network.
+
+### 8. Enable additional hardware, or install additional packages
+
+```
+$ sudo raspi-config
+```
+
+Enable the Pi Camera under Interfacing Options
+
+If you intend to use the audio output of your Pi, you may want to install something like,
+
+```
+$ sudo apt-get install mplayer
+```
