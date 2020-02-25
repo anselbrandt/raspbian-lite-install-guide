@@ -10,7 +10,7 @@ This is a step-by-step guide for installing Raspbian Lite onto a headless Raspbe
 
   - connect to your WiFi network on boot
   - be visible in Finder as an SMB share
-  - allow SSH login at username@raspberry-pi-name.local
+  - allow SSH login at `username@raspberry-pi-name.local`
 
 ### 1. Download Raspbian Lite
 
