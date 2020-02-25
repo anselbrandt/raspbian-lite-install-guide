@@ -1,4 +1,4 @@
-<a href="https://www.hifiberry.com"><img src="https://www.hifiberry.com/wp-content/themes/hifiberry/assets/images/hifiberry_logo.svg" width="300px"></a>
+<a href="https://www.hifiberry.com/docs/software/configuring-linux-3-18-x/"><img src="https://www.hifiberry.com/wp-content/themes/hifiberry/assets/images/hifiberry_logo.svg" width="300px"></a>
 
 ## Configure Raspberry Pi for Custom Sound Card
 
