@@ -27,3 +27,5 @@ $ echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
 ```
 
 Now you can install packages like [`brew install ccat`](https://github.com/jingweno/ccat)
+
+`*``ccat` requires `golang`, and Hombrew seems to have trouble installing Go, so you may need to `$ sudo apt-get install golang` first.
