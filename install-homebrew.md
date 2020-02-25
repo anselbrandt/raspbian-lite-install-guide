@@ -26,7 +26,7 @@ $ test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" 
 $ echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
 ```
 
-If `Homebrew` gives you any errors about `locale`, you may need to set `locale` and `languge` in `$ sudo raspi-config`
+If Homebrew gives you any errors about `locale`, you may need to configure Localisation Options in `$ sudo raspi-config`
 
 Now you can install packages like [`brew install ccat`](https://github.com/jingweno/ccat)
 
