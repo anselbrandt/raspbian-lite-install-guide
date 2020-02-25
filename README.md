@@ -24,7 +24,7 @@ You don't need to use balenaEtcher, but it's so much simpler than typing out com
 
 ### 3. Flash your SD card with the downloaded Raspbian image using balenaEtcher
 
-### 4. Remove/Reinsert or Mount your newly flashed SD card (still on your Mac)
+### 4. Remove/Re-insert or Mount your newly flashed SD card (still on your Mac)
 
 ```
 $ cd /Volumes/boot/
