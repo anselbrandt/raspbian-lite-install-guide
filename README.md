@@ -111,7 +111,7 @@ $ sudo nano /etc/netatalk/afp.conf
 Change the following:
 ```
 ;[Homes]
-;basedir regex = /home
+;basedir regex = /****
 ```
 to:
 ```
