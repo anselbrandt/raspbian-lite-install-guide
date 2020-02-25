@@ -1,6 +1,6 @@
 ## Installing Node with NVM on Raspberry Pi
 
-Many Node packages for Raspberry Pi hardware, such as [`nodeimu`](https://github.com/rupnikj/nodeimu) (It compiles on 8.10.0) have not been updated to work with the most recent versions of Node, so being able to easily switch between versions with NVM is helpful.
+Many Node packages for Raspberry Pi hardware, such as [`nodeimu`](https://github.com/rupnikj/nodeimu) (running it on 8.10.0) have not been updated to work with the most recent versions of Node, so being able to easily switch between versions with NVM is helpful.
 
 Check the [nvm github](https://github.com/nvm-sh/nvm) for the most recent version.
 
