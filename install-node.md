@@ -1,3 +1,4 @@
 ## Installing Node with NVM on Raspberry Pi
 
-Installing Node with the Node Version Manager (NVM) provides of easily switching between different versions of Node, of particular note with the Raspberry Pi since some packages such as [`nodeimu`](https://github.com/rupnikj/nodeimu)
+Many Node packages for Raspberry Pi hardware have not been updated to work with the most recent versions of Node, so being able to easily switch between versions with NVM is helpful.
+
