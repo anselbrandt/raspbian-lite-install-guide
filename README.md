@@ -44,7 +44,7 @@ network={
     psk="your-wifi-password"
 }
 ```
-control-o, control-x to save changes and exit nano.
+`control-o`, `control-x` to save changes and exit nano.
 
 Unmount and remove your SD card, insert into your Raspberry Pi and power it on.
 
@@ -66,7 +66,7 @@ $ sudo nano /etc/hosts
 
 On the last line, change the name `raspberrypi` to whatever you like. If you have more than one Pi on your network, you will want to give them different names.
 
-control-o, control-x to save and exit.
+`control-o`, `control-x` to save and exit.
 
 ```
 $ sudo nano /etc/hostname
@@ -74,7 +74,7 @@ $ sudo nano /etc/hostname
 
 Change the name `raspberrypi` to the same name you used above.
 
-control-o, control-x to save and exit.
+`control-o`, `control-x` to save and exit.
 
 If you wish to change the default password, enter:
 
