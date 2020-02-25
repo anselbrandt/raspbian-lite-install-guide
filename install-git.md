@@ -30,13 +30,7 @@ $ touch ~/.gitignore
 $ nano ~/.gitignore
 ```
 
-`control-o`, `control-x` to save and exit.
-
-Point `git` to your global .gitignore file
-
-```
-$ git config --global core.excludesfile ~/.gitignore
-```
+Add contents to your `.gitignore` file.
 
 Sample `.gitignore` contents:
 
@@ -57,6 +51,14 @@ yarn-error.log*
 /.changelog
 .npm/
 yarn.lock
+```
+
+`control-o`, `control-x` to save and exit.
+
+Point `git` to your global .gitignore file
+
+```
+$ git config --global core.excludesfile ~/.gitignore
 ```
 
 ### Confirm Global Config Values
