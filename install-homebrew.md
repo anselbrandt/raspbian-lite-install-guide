@@ -12,6 +12,8 @@ $ sudo apt-get upgrade
 $ sudo apt-get install git
 ```
 
+Now we can install Homebrew:
+
 ```
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 ```
