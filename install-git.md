@@ -1,4 +1,4 @@
-<a href="https://git-scm.com"><img src="https://git-scm.com/images/logo@2x.png" align="left" width="100px"></a>
+<a href="https://git-scm.com"><img src="https://git-scm.com/images/logo@2x.png" align="left" width="125px"></a>
 
 ## Installing Git on Raspberry Pi
 
