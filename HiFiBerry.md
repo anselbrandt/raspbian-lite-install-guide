@@ -1,6 +1,6 @@
 <a href="https://www.hifiberry.com"><img src="https://www.hifiberry.com/wp-content/themes/hifiberry/assets/images/hifiberry_logo.svg" width="300px"></a>
 
-## Configure Raspberry Pi for custom sound card
+## Configure Raspberry Pi for Custom Sound Card
 
 Insert and mount your SD card in your Mac or PC.
 
