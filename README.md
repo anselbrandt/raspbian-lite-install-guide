@@ -111,6 +111,12 @@ Enable the Pi Camera under Interfacing Options in the Configuration Tool
 $ sudo raspi-config
 ```
 
+Test the Pi Camera:
+
+```
+$ raspistill -v -o test.jpg
+```
+
 If you intend to use the audio output of your Pi, you may want to install something like,
 
 ```
