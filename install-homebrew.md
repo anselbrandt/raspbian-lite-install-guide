@@ -3,6 +3,7 @@
 ## Install Homebrew on Raspberry Pi
 
 <br>
+<br>
 
 Installing Homebrew requires that we first have `Git` installed:
 
