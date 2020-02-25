@@ -8,7 +8,7 @@ Check the [nvm github](https://github.com/nvm-sh/nvm) for the most recent versio
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 ```
 
-Close and reopen your terminal to start using nvm or run the following to use it without immediately:
+Close and reopen your terminal to start using nvm or run the following to use it immediately:
 
 ```
 $ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
