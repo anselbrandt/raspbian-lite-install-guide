@@ -30,6 +30,8 @@ $ nano ~/.gitignore
 
 `control-o`, `control-x` to save and exit.
 
+Point `git` to your global 
+
 ```
 $ git config --global core.excludesfile ~/.gitignore
 ```
