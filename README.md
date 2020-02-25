@@ -1,12 +1,16 @@
 <a href="https://www.raspberrypi.org/downloads/raspbian/"><img src="https://www.raspberrypi.org/app/themes/mind-control/images/application/header/home-link.svg" align="left" width="100px"></a>
 
+<br>
+
 ## Raspbian Lite Install Guide
+
+<br>
 
 This is a step-by-step guide for installing Raspbian Lite onto a headless Raspberry Pi from a Mac. If everything works, your Raspberry Pi will:
 
   - connect to your WiFi network on boot
   - be visible in Finder as an SMB share
-  - allow SSH login at username@raspberry-pi-name.local (I will use pi@pi1.local)
+  - allow SSH login at username@raspberry-pi-name.local
 
 ### 1. Download Raspbian Lite
 
