@@ -13,10 +13,10 @@ This is a step-by-step guide for installing Raspbian Lite onto a headless Raspbe
   - allow SSH login at `username@raspberry-pi-name.local`
   
   See the other files for installing:
-  -[Git](https://github.com/anselbrandt/raspbian-lite-install-guide/blob/master/install-git.md)
-  -[Homebrew](https://github.com/anselbrandt/raspbian-lite-install-guide/blob/master/install-homebrew.md)
-  -[Node](https://github.com/anselbrandt/raspbian-lite-install-guide/blob/master/install-node.md)
-  -[HiFiBerry](https://github.com/anselbrandt/raspbian-lite-install-guide/blob/master/HiFiBerry.md) or another soundcard
+  - [Git](https://github.com/anselbrandt/raspbian-lite-install-guide/blob/master/install-git.md)
+  - [Homebrew](https://github.com/anselbrandt/raspbian-lite-install-guide/blob/master/install-homebrew.md)
+  - [Node](https://github.com/anselbrandt/raspbian-lite-install-guide/blob/master/install-node.md)
+  - [HiFiBerry](https://github.com/anselbrandt/raspbian-lite-install-guide/blob/master/HiFiBerry.md) or another soundcard
 
 ### 1. Download Raspbian Lite
 
