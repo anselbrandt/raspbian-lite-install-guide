@@ -1,4 +1,4 @@
-`<a href="https://nodejs.org/en/download/"><img src="https://nodejs.org/static/images/logo.svg" align="left" width="100px"></a>`
+<a href="https://nodejs.org/en/download/"><img src="https://nodejs.org/static/images/logo.svg" style=" background-color:grey;" align="left" width="100px"></a>
 
 <br>
 
