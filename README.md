@@ -82,6 +82,18 @@ If you wish to change the default password, enter:
 $ sudo raspi-config
 ```
 
+Reboot your Pi:
+
+```
+$ sudo reboot
+```
+
+Reconnect to your Pi using new host name (and new password if you changed that)
+
+```
+$ ssh pi@new-host-name.local
+```
+
 ### 7. Enable file sharing
 
 ```
@@ -104,3 +116,36 @@ If you intend to use the audio output of your Pi, you may want to install someth
 ```
 $ sudo apt-get install mplayer
 ```
+
+### 9. Sense HAT
+
+Enable I2c in the Configuration Tool under Interfacing Options:
+
+```
+$ sudo raspi-config
+```
+
+```
+$ sudo apt-get update
+$ sudo apt-get install sense-hat
+$ sudo reboot
+```
+
+If your LEDs on your Sense HAT remain on after rebooting, you may need to shutdown your PI, and change the `config.txt` settings using your Mac.
+
+Once you have inserted and mounted your SD card:
+
+```
+$ cd /Volumes/boot
+$ nano config.txt
+```
+
+Add the following to the very end of the file:
+
+```
+dtoverlay=rpi-sense
+```
+
+`control-o`, `control-x` to save and exit.
+
+Unmount and remove your SD card from your computer and re-insert it in your Pi and power it on. The LEDs should now turn off after booting.
