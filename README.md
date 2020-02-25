@@ -101,7 +101,25 @@ $ sudo apt-get update
 $ sudo apt-get install netatalk
 ```
 
-This will make your Raspberry Pi visible on in Finder under Network.
+Netatalk now installs with no default shares, which will result in a failed connection on your Mac.
+
+You need to uncomment two lines in the Netatalk config file, and set default share to your `/home` folder:
+
+```
+$ sudo nano /etc/netatalk/afp.conf
+```
+Change the following:
+```
+;[Homes]
+;basedir regex = /home
+```
+to:
+```
+[Homes]
+basedir regex = /home
+```
+
+Now your Raspberry Pi should be visible in Finder under Network. If it isn't, or if it later fails to connect, quit Finder using the Activity Monitor. This will clear out the Finder Network cache.
 
 ### 8. Enable additional hardware, or install additional packages
 
