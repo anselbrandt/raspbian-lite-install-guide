@@ -93,11 +93,11 @@ This will make your Raspberry Pi visible on in Finder under Network.
 
 ### 8. Enable additional hardware, or install additional packages
 
+Enable the Pi Camera under Interfacing Options in the Configuration Tool
+
 ```
 $ sudo raspi-config
 ```
-
-Enable the Pi Camera under Interfacing Options
 
 If you intend to use the audio output of your Pi, you may want to install something like,
 
