@@ -4,7 +4,7 @@
 
 <br>
 
-Installing Homebrew requires that first have `Git` installed:
+Installing Homebrew requires that we first have `Git` installed:
 
 ```
 $ sudo apt-get update
