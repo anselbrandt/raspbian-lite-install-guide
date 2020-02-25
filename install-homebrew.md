@@ -4,6 +4,14 @@
 
 <br>
 
+Installing Homebrew requires that first have `Git` installed:
+
+```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install git
+```
+
 ```
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 ```
