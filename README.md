@@ -131,7 +131,7 @@ $ sudo apt-get install sense-hat
 $ sudo reboot
 ```
 
-If the LEDs on your Sense HAT remain on after rebooting, you may need to `sudo shutdown -h now` your PI, and change the `config.txt` settings using your Mac.
+If the LEDs on your Sense HAT remain on after rebooting, you may need to `$ sudo shutdown -h now` your PI, and change the `config.txt` settings using your Mac.
 
 Once you have inserted and mounted your SD card:
 
