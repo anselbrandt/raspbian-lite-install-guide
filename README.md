@@ -142,7 +142,7 @@ Test the Pi Camera:
 $ raspistill -v -o test.jpg
 ```
 
-To load the ``bcm2835-v4l2` driver:
+To load the `bcm2835-v4l2` driver:
 
 ```
 $ sudo modprobe bcm2835-v4l2
