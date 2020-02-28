@@ -148,7 +148,7 @@ To load the ``bcm2835-v4l2` driver:
 $ sudo modprobe bcm2835-v4l2
 ```
 
-To load the the bcm2835-v4l2 driver on boot:
+To load the the `bcm2835-v4l2` driver on boot:
 
 ```
 $ sudo nano /etc/modules
