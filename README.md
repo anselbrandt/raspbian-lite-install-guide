@@ -142,6 +142,23 @@ Test the Pi Camera:
 $ raspistill -v -o test.jpg
 ```
 
+To load the ``bcm2835-v4l2` driver:
+
+```
+$ sudo modprobe bcm2835-v4l2
+```
+
+To load the the `bcm2835-v4l2` driver on boot:
+
+```
+$ sudo nano /etc/modules
+```
+
+and add:
+```
+bcm2835-v4l2
+```
+
 If you intend to use the audio output of your Pi, you may want to install something like,
 
 ```
