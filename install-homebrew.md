@@ -28,7 +28,7 @@ $ echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
 
 If Homebrew gives you any errors about `locale`, you may need to configure Localisation Options in `$ sudo raspi-config`
 
-If that doesn't work you may need to do the following (from [Linuxbrew issue](https://github.com/Linuxbrew/brew/issues/568#issuecomment-367417842)
+If that doesn't work you may need to do the following (from [Linuxbrew issue](https://github.com/Linuxbrew/brew/issues/568#issuecomment-367417842)):
 
 ```
 $ sudo apt-get install locales
