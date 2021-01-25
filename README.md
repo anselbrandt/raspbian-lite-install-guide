@@ -21,7 +21,7 @@ This is a step-by-step guide for installing Raspbian Lite onto a headless Raspbe
 
 ### 1. Download Raspbian Lite
 
-https://www.raspberrypi.org/downloads/raspbian/
+https://www.raspberrypi.org/software/operating-systems/
 
 ### 2. Download and install balenaEtcher
 
