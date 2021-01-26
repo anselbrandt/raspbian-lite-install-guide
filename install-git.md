@@ -35,21 +35,25 @@ Add contents to your `.gitignore` file.
 Sample `.gitignore` contents:
 
 ```
-.idea/
-.vscode/
-node_modules/
-build
-.DS_Store
-.AppleDouble
 *.tgz
-my-app*
-template/src/__tests__/__snapshots__/
+.DS_Store
+.eslintcache
+.env
+.env.local
+.idea/
+.npm/
+.vscode/
+/.changelog
+RTIMULib.ini
+build
+dist
 lerna-debug.log
+my-app*
+node_modules/
 npm-debug.log*
+template/src/__tests__/__snapshots__/
 yarn-debug.log*
 yarn-error.log*
-/.changelog
-.npm/
 yarn.lock
 ```
 
