@@ -22,7 +22,7 @@ defaults.ctl.card 1
 defaults.pcm.card 1
 ```
 
-Update also options:
+Update `alsa` options:
 
 ```
 sudo nano /etc/asound.conf
