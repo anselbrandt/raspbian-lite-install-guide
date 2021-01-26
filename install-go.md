@@ -5,7 +5,7 @@
 <br>
 <br>
 
-### Download the lastest ARMv6 Linux package using 'wget'
+### Download the lastest ARMv6 Linux package using `wget`
 
 https://golang.org/dl/
 
