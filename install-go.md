@@ -4,3 +4,44 @@
 
 <br>
 <br>
+
+### Download the lastest ARMv6 Linux package using 'wget'
+
+https://golang.org/dl/
+
+ex.
+```
+wget https://golang.org/dl/go1.15.7.linux-armv6l.tar.gz
+```
+
+### Extract it to /usr/local
+
+```
+sudo tar -C /usr/local -xzf go1.15.7.linux-armv6l.tar.gz
+rm go1.15.7.linux-armv6l.tar.gz
+```
+
+### Add to path
+
+```
+sudo nano .profile
+```
+
+Add the following:
+
+```
+PATH=$PATH:/usr/local/go/bin
+GOPATH=$HOME/go
+```
+
+Update shell:
+
+```
+source .profile
+```
+
+### Confirm installation
+
+```
+go version
+```
