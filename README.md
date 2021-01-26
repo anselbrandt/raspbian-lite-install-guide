@@ -51,6 +51,9 @@ network={
     psk="your-wifi-password"
 }
 ```
+
+Pay attention to wifi network name case.
+
 `control-o`, `control-x` to save changes and exit nano.
 
 Unmount and remove your SD card, insert into your Raspberry Pi and power it on.
