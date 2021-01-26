@@ -58,7 +58,7 @@ Unmount and remove your SD card, insert into your Raspberry Pi and power it on.
 ### 5. Connect to your Raspberry Pi
 
 ```
-$ ssh pi@Raspberry.local
+$ ssh pi@raspberrypi.local
 ```
 
 The default password will be `raspberry`
