@@ -5,7 +5,7 @@ Many Node packages for Raspberry Pi hardware, such as [`nodeimu`](https://www.np
 Check the [nvm github](https://github.com/nvm-sh/nvm) for the most recent version.
 
 ```
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 ```
 
 Close and reopen your terminal to start using nvm or run the following to use it immediately:
