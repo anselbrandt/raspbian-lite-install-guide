@@ -11,8 +11,9 @@ $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bas
 Close and reopen your terminal to start using nvm or run the following to use it immediately:
 
 ```
-$ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+$ export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 ```
 
 \* If you want to install `nodeimu` I have gotten it to work on Node 8.10.0 with node-gyp 4.0.0. Install with `npm install nodeimu`. Manually building from `github` doesn't seem to work.
