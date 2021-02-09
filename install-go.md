@@ -45,7 +45,7 @@ go get -u github.com/owenthereal/ccat
 
 `ccat` is a nice little package works like `cat`, but with color.
 
-Update shell:
+### Update shell:
 
 ```
 source .profile
