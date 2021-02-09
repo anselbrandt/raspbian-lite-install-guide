@@ -37,6 +37,14 @@ PATH=$PATH:/home/pi/go/bin
 source "$HOME/.cargo/env"
 ```
 
+### Install a Go Package to Create Go Folders
+
+```
+go get -u github.com/owenthereal/ccat
+```
+
+`ccat` is a nice little package works like `cat`, but with color.
+
 Update shell:
 
 ```
