@@ -7,6 +7,8 @@
 
 # *** Linuxbrew has been merged with Homebrew and they are currently working on ARM compaibility
 
+# *** Currently Homebrew does not install on ARM
+
 Installing Homebrew requires that we first have `Git` installed:
 
 ```
