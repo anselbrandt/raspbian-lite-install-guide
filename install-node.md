@@ -17,3 +17,5 @@ export NVM_DIR="$HOME/.nvm"
 ```
 
 \* If you want to install `nodeimu` I have gotten it to work on Node 8.10.0 with node-gyp 4.0.0. Install with `npm install nodeimu`. Manually building from `github` doesn't seem to work.
+
+\* `nodeimu` seems to have been updated to work with any current version of Node.
