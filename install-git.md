@@ -54,7 +54,6 @@ npm-debug.log*
 template/src/__tests__/__snapshots__/
 yarn-debug.log*
 yarn-error.log*
-yarn.lock
 ```
 
 `control-o`, `control-x` to save and exit.
