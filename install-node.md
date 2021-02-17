@@ -26,3 +26,22 @@ export NVM_DIR="$HOME/.nvm"
 
 Get the latest version for `armv61` from https://unofficial-builds.nodejs.org/download/release/
 
+Install NVM as above.
+
+Edit `.profile`:
+
+```
+sudo nano .profile
+```
+Add the following:
+```
+export NVM_NODEJS_ORG_MIRROR=https://unofficial-builds.nodejs.org/download/release
+```
+Then:
+```
+nvm ls-remote
+```
+
+In a browser, check to confirm the version you want has been built for `armv61`
+
+Then `nvm install` that version, ex. `nvm install v15.8.0`
