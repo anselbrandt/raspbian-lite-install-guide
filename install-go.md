@@ -11,14 +11,14 @@ https://golang.org/dl/
 
 ex.
 ```
-wget https://golang.org/dl/go1.15.8.linux-armv6l.tar.gz
+wget https://golang.org/dl/go1.16.linux-armv6l.tar.gz
 ```
 
 ### Extract it to /usr/local
 
 ```
-sudo tar -C /usr/local -xzf go1.15.8.linux-armv6l.tar.gz
-rm go1.15.8.linux-armv6l.tar.gz
+sudo tar -C /usr/local -xzf go1.16.linux-armv6l.tar.gz
+rm go1.16.linux-armv6l.tar.gz
 ```
 
 ### Add to path
@@ -37,14 +37,6 @@ PATH=$PATH:/home/pi/go/bin
 source "$HOME/.cargo/env"
 ```
 
-### Install a Go Package to Create Go Folders
-
-```
-go get -u github.com/owenthereal/ccat
-```
-
-`ccat` is a nice little package works like `cat`, but with color.
-
 ### Update shell:
 
 ```
@@ -56,3 +48,11 @@ source .profile
 ```
 go version
 ```
+
+### Install a Go Package to Create Go Folders
+
+```
+go get -u github.com/owenthereal/ccat
+```
+
+`ccat` is a nice little package works like `cat`, but with color.
