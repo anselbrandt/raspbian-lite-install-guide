@@ -1,6 +1,6 @@
 ## Installing Node with NVM on Raspberry Pi
 
-## *** Node.js must be installed manually on Pi Zero/Pi Zero W and earlier Rapsberry Pis
+## *** Node.js must be installed manually on Pi Zero/Pi Zero W and Rapsberry Pis earlier than 3b
 
 Many Node packages for Raspberry Pi hardware, such as [`nodeimu`](https://www.npmjs.com/package/nodeimu) have not been updated to work with the most recent versions of Node, so being able to easily switch between versions with NVM is helpful.
 
