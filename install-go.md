@@ -34,7 +34,6 @@ PATH=$PATH:/usr/local/go/bin
 GOPATH=$HOME/go
 
 PATH=$PATH:/home/pi/go/bin
-source "$HOME/.cargo/env"
 ```
 
 ### Update shell:
