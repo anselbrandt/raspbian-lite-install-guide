@@ -37,6 +37,12 @@ Add the following:
 ```
 export NVM_NODEJS_ORG_MIRROR=https://unofficial-builds.nodejs.org/download/release
 ```
+Reload `.profile`
+
+```
+source ~/.profile
+```
+
 Then:
 ```
 nvm ls-remote
