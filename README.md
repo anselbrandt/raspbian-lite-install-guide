@@ -23,11 +23,9 @@ This is a step-by-step guide for installing Raspbian Lite onto a headless Raspbe
 
 https://www.raspberrypi.org/software/operating-systems/
 
-### 2. Download and install balenaEtcher
+### 2. Download and install Raspberry Pi Imager
 
-https://www.balena.io/etcher/
-
-You don't need to use balenaEtcher, but it's so much simpler than typing out commands.
+https://www.raspberrypi.com/software/
 
 ### 3. Flash your SD card with the downloaded Raspbian image using balenaEtcher
 
@@ -61,7 +59,7 @@ Unmount and remove your SD card, insert into your Raspberry Pi and power it on.
 ### 5. Connect to your Raspberry Pi
 
 ```
-$ ssh pi@raspberrypi.local
+$ ssh pi@Raspberry.local
 ```
 
 The default password will be `raspberry`
