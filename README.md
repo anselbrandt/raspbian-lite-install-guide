@@ -6,6 +6,10 @@
 
 <br>
 
+# Raspberry Pi no longer has `pi` default user. A user must be configured while flashing SSD
+
+https://www.raspberrypi.com/news/raspberry-pi-bullseye-update-april-2022/
+
 This is a step-by-step guide for installing Raspbian Lite onto a headless Raspberry Pi from a Mac. If everything works, your Raspberry Pi will:
 
   - connect to your WiFi network on boot
