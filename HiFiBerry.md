@@ -23,6 +23,12 @@ dtoverlay=hifiberry-dacplus
 
 (or whatever your soundcard happens to be called)
 
+If your system uses the vc4-fkms-v3d overlay, make sure, audio is also disabled on this:
+
+```
+dtoverlay=vc4-fkms-v3d,audio=off
+```
+
 `control-o`, `control-x` to save and exit.
 
 Install `mplayer`
