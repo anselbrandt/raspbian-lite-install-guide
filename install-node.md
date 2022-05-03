@@ -51,3 +51,24 @@ nvm ls-remote
 In a browser, check to confirm the version you want has been built for `armv61`
 
 Then `nvm install` that version, ex. `nvm install v15.8.0`
+
+## Listening on Port 80 as Non-Root User
+
+https://www.digitalocean.com/community/tutorials/how-to-use-pm2-to-setup-a-node-js-production-environment-on-an-ubuntu-vps#give-safe-user-permission-to-use-port-80
+
+```
+sudo apt-get install libcap2-bin
+sudo setcap cap_net_bind_service=+ep /usr/local/bin/node
+
+// or if using nvm
+
+/home/<username>/.nvm/versions/node/<node version>/bin/node
+```
+
+Or use `PM2`
+
+```
+sudo npm install pm2 -g
+
+pm2 start app.js
+```
