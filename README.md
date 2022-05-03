@@ -135,6 +135,12 @@ to:
 basedir regex = /home
 ```
 
+Restart Netatalk:
+
+```
+sudo systemctl restart netatalk
+```
+
 Now your Raspberry Pi should be visible in Finder under Network. If it isn't, or if it later fails to connect, quit Finder using the Activity Monitor. This will clear out the Finder Network cache.
 
 ### 8. Enable additional hardware, or install additional packages
