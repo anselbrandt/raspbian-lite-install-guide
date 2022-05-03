@@ -72,3 +72,21 @@ sudo npm install pm2 -g
 
 pm2 start app.js
 ```
+
+With NPM start script:
+
+```
+pm2 start npm -- start
+```
+
+To assign a name to the PM2 process:
+
+```
+pm2 start npm --name "app name" -- start
+```
+
+Then run:
+
+```
+pm2 save
+```
