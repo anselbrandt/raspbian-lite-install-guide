@@ -51,7 +51,7 @@ go version
 ### Install a Go Package to Create Go Folders
 
 ```
-go get -u github.com/owenthereal/ccat
+go install github.com/owenthereal/ccat@latest
 ```
 
 `ccat` is a nice little package works like `cat`, but with color.
