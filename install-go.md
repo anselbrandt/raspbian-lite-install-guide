@@ -30,10 +30,8 @@ sudo nano .profile
 Add the following:
 
 ```
-PATH=$PATH:/usr/local/go/bin
-GOPATH=$HOME/go
-
-PATH=$PATH:/home/pi/go/bin
+export GOPATH="$HOME/go"
+PATH="$GOPATH/bin:$PATH"
 ```
 
 ### Update shell:
