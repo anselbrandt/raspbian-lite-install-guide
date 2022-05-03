@@ -24,3 +24,15 @@ dtoverlay=hifiberry-dacplus
 (or whatever your soundcard happens to be called)
 
 `control-o`, `control-x` to save and exit.
+
+Install `mplayer`
+
+```
+sudo apt-get install mplayer
+```
+
+Play files:
+
+```
+mplayer filename
+```
