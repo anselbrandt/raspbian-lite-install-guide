@@ -32,6 +32,7 @@ Add the following:
 ```
 export GOPATH="$HOME/go"
 PATH="$GOPATH/bin:$PATH"
+PATH=$PATH:/usr/local/go/bin
 ```
 
 ### Update shell:
