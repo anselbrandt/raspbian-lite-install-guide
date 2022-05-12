@@ -11,14 +11,14 @@ https://golang.org/dl/
 
 ex.
 ```
-wget https://go.dev/dl/go1.18.1.linux-armv6l.tar.gz
+wget https://go.dev/dl/go1.18.2.linux-armv6l.tar.gz
 ```
 
 ### Extract it to /usr/local
 
 ```
-sudo tar -C /usr/local -xzf go1.18.1.linux-armv6l.tar.gz
-rm go1.18.1.linux-armv6l.tar.gz
+sudo tar -C /usr/local -xzf go1.18.2.linux-armv6l.tar.gz
+rm go1.18.2.linux-armv6l.tar.gz
 ```
 
 ### Add to path
