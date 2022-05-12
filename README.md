@@ -157,6 +157,14 @@ Test the Pi Camera:
 $ raspistill -v -o test.jpg
 ```
 
+## New Camera Interface
+
+https://www.raspberrypi.com/documentation/accessories/camera.html
+
+```
+libcamera-still -o test.jpg
+```
+
 To load the `bcm2835-v4l2` driver:
 
 ```
