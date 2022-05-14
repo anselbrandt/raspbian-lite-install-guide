@@ -5,7 +5,9 @@
 <br>
 <br>
 
-### Download the lastest ARMv6 Linux package using `wget`
+### Download the lastest ARM64 Linux package using `wget`
+
+(If you only have 32-bit Raspbian installed, download the ARMv6 package)
 
 https://golang.org/dl/
 
