@@ -21,7 +21,9 @@ $ git config --global core.editor nano
 $ git config --global credential.helper 'store'
 ```
 
-To save your password, `git clone` any random repo.
+### Generate GitHub Personal Access Token for Each Device
+
+To save your access token, `git clone` a private repo, or `git push` a new repo and paste your access token when asked for a password.
 
 ### Global .gitignore file
 
