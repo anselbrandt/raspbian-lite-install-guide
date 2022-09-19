@@ -50,7 +50,7 @@ nvm ls-remote
 
 In a browser, check to confirm the version you want has been built for `armv61`
 
-Then `nvm install` that version, ex. `nvm install v15.8.0`
+Then `nvm install` that version, ex. `nvm install 16.17.0`
 
 ## Listening on Port 80 as Non-Root User
 
