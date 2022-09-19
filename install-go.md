@@ -25,6 +25,11 @@ wget https://go.dev/dl/go1.19.1.linux-armv6l.tar.gz
 ```
 sudo tar -C /usr/local -xzf go1.18.2.linux-arm64.tar.gz
 rm go1.18.2.linux-arm64.tar.gz
+
+or
+
+sudo tar -C /usr/local -xzf go1.19.1.linux-armv6l.tar.gz
+rm go1.19.1.linux-armv6l.tar.gz
 ```
 
 ### Add to path
