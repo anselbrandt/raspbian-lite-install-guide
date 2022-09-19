@@ -14,6 +14,10 @@ https://golang.org/dl/
 ex.
 ```
 wget https://go.dev/dl/go1.18.2.linux-arm64.tar.gz
+
+or
+
+wget https://go.dev/dl/go1.19.1.linux-armv6l.tar.gz
 ```
 
 ### Extract it to /usr/local
