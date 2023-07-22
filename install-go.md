@@ -66,10 +66,13 @@ go install github.com/owenthereal/ccat@latest
 
 `ccat` is a nice little package works like `cat`, but with color.
 
-### Install Go serve
+### ~~Install Go serve~~
 
-Serves static files in any given accessible directory until you hit `Ctrl-C`
+~~Serves static files in any given accessible directory until you hit `Ctrl-C`~~
 
+~~`go install github.com/philippgille/serve@latest`~~
+
+Install Node.js `serve` from Vercel:
 ```
-go install github.com/philippgille/serve@latest
+npm install --g serve
 ```
