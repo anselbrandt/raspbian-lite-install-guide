@@ -74,5 +74,5 @@ go install github.com/owenthereal/ccat@latest
 
 Install Node.js `serve` from Vercel:
 ```
-npm install --g serve
+npm install -g serve
 ```
