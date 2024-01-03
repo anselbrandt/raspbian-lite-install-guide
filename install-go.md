@@ -23,8 +23,8 @@ wget https://go.dev/dl/go1.21.1.linux-armv6l.tar.gz
 ### Extract it to /usr/local
 
 ```
-sudo tar -C /usr/local -xzf go1.21.1.linux-arm64.tar.gz
-rm go1.21.1.linux-arm64.tar.gz
+sudo tar -C /usr/local -xzf go1.21.1.linux-armv6l.tar.gz
+rm go1.21.1.linux-armv6l.tar.gz
 
 or
 
