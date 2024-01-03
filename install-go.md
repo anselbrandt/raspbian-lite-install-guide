@@ -41,9 +41,9 @@ sudo nano .profile
 Add the following:
 
 ```
-export GOPATH="$HOME/go"
-PATH="$GOPATH/bin:$PATH"
-PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export PATH=$PATH:$HOME/bin
 ```
 
 ### Update shell:
