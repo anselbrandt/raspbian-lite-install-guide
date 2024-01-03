@@ -14,20 +14,11 @@ https://golang.org/dl/
 ex.
 ```
 wget https://go.dev/dl/go1.21.5.linux-arm64.tar.gz
-
-or
-
-wget https://go.dev/dl/go1.21.5.linux-arm64.tar.gz
 ```
 
 ### Extract it to /usr/local
 
 ```
-sudo tar -C /usr/local -xzf go1.21.5.linux-arm64.tar.gz
-rm go1.21.5.linux-arm64.tar.gz
-
-or
-
 sudo tar -C /usr/local -xzf go1.21.5.linux-arm64.tar.gz
 rm go1.21.5.linux-arm64.tar.gz
 ```
