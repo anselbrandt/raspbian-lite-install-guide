@@ -15,4 +15,4 @@ defaults.ctl.card 0
 defaults.pcm.card 0
 ```
 
-aplay file.mp3
+mplayer file.mp3
