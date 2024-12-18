@@ -8,7 +8,7 @@
 ### Remove previous version
 
 ```
-rm -rf /usr/local/go
+sudo rm -rf /usr/local/go
 ```
 
 ### Download the lastest ARM64 Linux package using `wget`
