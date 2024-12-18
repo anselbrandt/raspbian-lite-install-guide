@@ -5,6 +5,12 @@
 <br>
 <br>
 
+### Remove previous version
+
+```
+rm -rf /usr/local/go
+```
+
 ### Download the lastest ARM64 Linux package using `wget`
 
 (If you only have 32-bit Raspbian installed, download the ARMv6 package)
